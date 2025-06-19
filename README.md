@@ -21,7 +21,7 @@ A responsive web-based interface for interacting with AI chatbots. This project 
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
+   git clone <https://github.com/charwayyyyyy/ai-chatbot-interface.git>
    ```
 2. **Open the project folder:**
    Navigate to the project directory and open `index.html` in your browser.
