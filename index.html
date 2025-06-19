@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot Interface</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Chatbot Interface</h1>
+            <p>Interactive chatbot</p>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-window">
+                <div class="chat-header">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDEyQzE1LjMxLDEyIDE4LDkuMzEgMTgsNkMxOCwyLjY5IDE1LjMxLDAgMTIsMEM4LjY5LDAgNiwyLjY5IDYsNkM2LDkuMzEgOC42OSwxMiAxMiwxMk0xMiwxNC41QzguMTMsMTQuNSA1LDE3LjEzIDUsMjFIMTlDMTksMTcuMTMgMTUuODcsMTQuNSAxMiwxNC41WiIgZmlsbD0id2hpdGUiPjwvcGF0aD48L3N2Zz4=" alt="AI Avatar">
+                    <h2>AI Assistant</h2>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                        Hello! I'm your AI assistant. How can I help you today?
+                        <div class="message-time">Just now</div>
+                    </div>
+                    
+                    <div class="message user-message">
+                        Hi there! Can you tell me about Python programming?
+                        <div class="message-time">Just now</div>
+                    </div>
+                    
+                    <div class="message bot-message">
+                        Python is a high-level, interpreted programming language known for its readability and versatility. It's widely used in web development, data science, AI, and more.
+                        <div class="message-time">Just now</div>
+                    </div>
+                    
+                    <div class="typing-indicator" id="typingIndicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="messageInput" placeholder="Type your message here...">
+                    <button id="sendButton" aria-label="Send message" title="Send message">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h3>AI Capabilities</h3>
+                
+                <div class="features">
+                    <div class="feature-card">
+                        <i class="fas fa-comments"></i>
+                        <h4>Natural Conversations</h4>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-brain"></i>
+                        <h4>Machine Learning</h4>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Code Generation</h4>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Data Analysis</h4>
+                    </div>
+                </div>
+                
+                <div class="history">
+                    <h3>Recent Chats</h3>
+                    <div class="history-item">
+                        <h4>Python Programming Help</h4>
+                        <p>Today, 10:30 AM</p>
+                    </div>
+                    <div class="history-item">
+                        <h4>Machine Learning Explanation</h4>
+                        <p>Yesterday, 4:15 PM</p>
+                    </div>
+                    <div class="history-item">
+                        <h4>Web Development Tips</h4>
+                        <p>May 15, 2025</p>
+                    </div>
+                </div>
+                
+                <div class="powered-by">
+                    <span>Built by</span>
+                    <div class="python-logo">charwayyyyyy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
