@@ -4,7 +4,7 @@ A responsive web-based interface for interacting with AI chatbots. This project 
 
 ## Features
 
-- **Beautiful, modern UI** with responsive design
+- **UI** with responsive design
 - **Chat window** for real-time conversation
 - **Sidebar** with features and chat history
 - **Typing indicator** for bot responses
